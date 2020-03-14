@@ -11625,6 +11625,7 @@ window.addEventListener("load", function () {
       nextEl: ".hero__slider-arrow--next",
       prevEl: ".hero__slider-arrow--prev"
     },
+    autoHeight: true,
     speed: 1000,
     effect: "slide",
     keyboard: {
@@ -11661,7 +11662,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53622" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52788" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
