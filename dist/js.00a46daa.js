@@ -2233,19 +2233,20 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 (0, _navigation.default)();
 (0, _animations.handleAnimationsInView)();
-window.addEventListener("load", function () {// const swiper = new Swiper(".hero__slider", {
-  //     navigation: {
-  //         nextEl: ".hero__slider-arrow--next",
-  //         prevEl: ".hero__slider-arrow--prev",
-  //     },
-  //     autoHeight: true,
-  //     speed: 1000,
-  //     effect: "slide",
-  //     keyboard: {
-  //         enabled: true,
-  //         onlyInViewport: true,
-  //     },
-  // });
+window.addEventListener("load", function () {
+  var swiper = new Swiper(".hero__slider", {
+    navigation: {
+      nextEl: ".hero__slider-arrow--next",
+      prevEl: ".hero__slider-arrow--prev"
+    },
+    autoHeight: true,
+    speed: 1000,
+    effect: "slide",
+    keyboard: {
+      enabled: true,
+      onlyInViewport: true
+    }
+  });
 });
 },{"./navigation":"js/navigation.js","./animations":"js/animations.js"}],"C:/Users/DevMike/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
