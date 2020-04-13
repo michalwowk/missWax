@@ -4560,7 +4560,7 @@ li::after {
   display: block;
   width: 6px;
   height: 6px;
-  background-color: #e14f86;
+  background-color: #ea807d;
   position: absolute;
   top: 8px;
   left: -2rem;
@@ -4573,7 +4573,7 @@ img {
 }
 
 :focus {
-  outline-color: #e14f86;
+  outline-color: #ea807d;
   outline-offset: 0.5rem;
 }
 
@@ -4597,7 +4597,7 @@ body::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(112, 112, 112, 0.3);
 }
 body::-webkit-scrollbar-thumb {
-  background-color: #e14f86;
+  background-color: #ea807d;
   outline: 1px solid #fff;
 }
 
@@ -4606,7 +4606,7 @@ button:hover {
 }
 
 ::selection {
-  background-color: #e14f86;
+  background-color: #ea807d;
   color: #fff;
 }
 
@@ -4652,7 +4652,7 @@ address {
 
 a {
   font-weight: 700;
-  color: #e14f86;
+  color: #ea807d;
   text-decoration: none;
 }
 a:hover {
@@ -4787,7 +4787,7 @@ p {
   margin-bottom: 2rem;
   display: block;
   text-transform: none;
-  font-weight: 300;
+  font-weight: 600;
   position: relative;
   display: inline-block;
   font-family: "Allura", serif;
@@ -4860,7 +4860,7 @@ p {
 }
 
 .bg-brand {
-  background-color: #e14f86;
+  background-color: #ea807d;
 }
 
 .c-white {
@@ -4872,7 +4872,7 @@ p {
 }
 
 .c-brand {
-  color: #e14f86;
+  color: #ea807d;
 }
 
 .zi-10 {
@@ -4920,11 +4920,11 @@ p {
   cursor: pointer;
   padding: 5px 50px;
   color: #fff;
-  background-color: #e14f86;
+  background-color: #ea807d;
   border-radius: 8px;
   text-decoration: none;
   text-align: center;
-  border: 2px solid #e14f86;
+  border: 2px solid #ea807d;
   transition: all 0.2s ease-in-out;
 }
 @media (min-width: 768px) {
@@ -4934,7 +4934,7 @@ p {
 }
 .btn-main:hover {
   background-color: transparent;
-  color: #e14f86;
+  color: #ea807d;
 }
 .btn-main--mobile-full {
   width: 100%;
@@ -5096,7 +5096,7 @@ p {
 .statistics {
   margin-top: -0.2rem;
   padding: 3.5rem 3rem 2.8rem;
-  background-color: #e14f86;
+  background-color: #ea807d;
 }
 @media (min-width: 768px) {
   .statistics {
@@ -5161,7 +5161,7 @@ p {
   color: #000;
 }
 .carousel .swiper-slide:hover .carousel__title {
-  color: #e14f86;
+  color: #ea807d;
 }
 .carousel .swiper-slide:hover img {
   filter: grayscale(0);
@@ -5209,12 +5209,12 @@ p {
   margin-bottom: 0.6rem;
 }
 .contact__navigation-link:hover {
-  color: #e14f86;
+  color: #ea807d;
 }
 
 .about-us__owner-img {
   margin-right: 50px;
-  box-shadow: 30px 30px 0 #e14f86;
+  box-shadow: 30px 30px 0 #ea807d;
 }
 
 .steps__lycon-logo {
@@ -5265,7 +5265,7 @@ p {
   width: 35px;
   height: 35px;
   border-radius: 3px;
-  border: 3px solid #e14f86;
+  border: 3px solid #ea807d;
   background-color: transparent;
   border-bottom-color: transparent !important;
   border-left-color: transparent !important;
@@ -5375,6 +5375,16 @@ p {
 .socials svg {
   width: 70%;
   fill: #fff;
+}
+
+.cta {
+  background-color: #f9e4e6;
+}
+.cta__button-wrapper {
+  margin-top: 50px;
+}
+.cta .section-title-small::after {
+  display: none;
 }
 
 .footer {
@@ -5535,7 +5545,7 @@ section {
   top: 50%;
   left: 0;
   transform: translate(-50%, -50%) scaleX(0.3);
-  background-color: #e14f86;
+  background-color: #ea807d;
   height: 3px;
   opacity: 0;
   transition: all 0.2s ease-in-out;
