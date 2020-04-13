@@ -5328,7 +5328,7 @@ p {
 }
 
 .hero {
-  background-image: linear-gradient(to top, #fff, transparent 40%), url("/hero-bg.3078b0d9.jpg");
+  background-image: linear-gradient(to top, #fff, rgba(255, 255, 255, 0) 40%), url("/hero-bg.3078b0d9.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
