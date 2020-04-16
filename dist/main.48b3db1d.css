@@ -4916,7 +4916,7 @@ p {
   font-size: 2.6rem;
   line-height: 3rem;
 }
-@media (min-width: 365px) {
+@media (min-width: 405px) {
   .hero__title {
     font-size: 3.5rem;
     line-height: 3.8rem;
@@ -5336,7 +5336,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 30%;
+  padding-top: 35%;
   min-height: 100vh;
 }
 @media (min-width: 768px) {
